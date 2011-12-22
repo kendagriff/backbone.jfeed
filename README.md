@@ -1,6 +1,6 @@
 # Backbone.jFeed
 
-A drop-in plugin that allows you to turn Backbone.js's `Collection` object into an RSS/ATOM feed.
+A drop-in plugin that allows you to turn Backbone.js's `Collection` object into an RSS/ATOM feed. Much thanks to [Jean-François Hovinne](http://hovinne.com/) for the [jFeed](https://github.com/jfhovinne/jFeed) library.
 
 ### Dependencies
 
