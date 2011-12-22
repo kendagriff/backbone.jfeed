@@ -5,6 +5,7 @@ A drop-in plugin that allows you to turn Backbone.js's `Collection` object into 
 ### Dependencies
 
 * [jFeed from jfhovinne](https://github.com/jfhovinne/jFeed)
+* [JQuery](http://jquery.com/)
 * [Backbone.js](http://documentcloud.github.com/backbone/) (Tested in 0.5.3)
 * [Underscore.js](http://documentcloud.github.com/underscore/) (Tested in 1.2.3)
 
@@ -13,12 +14,11 @@ A drop-in plugin that allows you to turn Backbone.js's `Collection` object into 
 Add these dependencies to your `<head>`, **in order**:
 
 ```
-<script src="vendor/jquery.js"></script>
-<script src="vendor/underscore.js"></script>
-<script src="vendor/backbone.js"></script>
-<script src="vendor/jquery.jfeed.js"></script>
-<script src="../backbone.jfeed.js"></script>
-<script src="backbone.jfeed.test.js"></script>
+<script src="jquery.js"></script>
+<script src="underscore.js"></script>
+<script src="backbone.js"></script>
+<script src="jquery.jfeed.js"></script>
+<script src="backbone.jfeed.js"></script>
 ```
 
 ## Usage
